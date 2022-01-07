@@ -1,0 +1,43 @@
+.bg-blue {
+  background: #106eb9 !important;
+}
+
+.verticalLine {
+  border-left: thick solid #ff0000 !important;
+}
+
+#your_col {
+  border-left: 3px solid #338ed7;
+}
+
+.text {
+  font-size: 1.2em;
+}
+
+.light {
+  font-weight: normal !important;
+}
+
+.circulo {
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #56c2d6;
+}
+
+@media (max-width: 812px) {
+  .text {
+    font-size: 0.9em;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .circulo {
+    width: 15px;
+    height: 15px;
+  }
+}
