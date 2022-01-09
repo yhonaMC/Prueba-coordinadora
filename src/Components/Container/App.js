@@ -4,7 +4,7 @@ import Contenido from "../Contenido/Contenido";
 import Overall from "../Overall/Overall";
 
 function App() {
-  const [update, setUpdate] = useState({});
+  const [update, setUpdate] = useState([]);
   const [status, setStatus] = useState("");
 
   return (
@@ -16,7 +16,7 @@ function App() {
         <Contenido setUpdate={setUpdate} status={status} />
       </div>
       <div>
-        <Overall />
+        <Overall update={update} status={status} />
       </div>
     </>
   );
